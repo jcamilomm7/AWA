@@ -1,6 +1,7 @@
 body{
-    background-color: #110f0fea;
+    background-color: $color1;
   }
+
   header, .alert{
     z-index: 100;
   }
@@ -38,4 +39,8 @@ body{
   }
   .hide, .remove{
     display: none;
+  }
+
+  .estilos{
+    background-color:$color1 ;
   }

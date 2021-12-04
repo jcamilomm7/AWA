@@ -18,7 +18,8 @@ function addToCarritoItem(e){
     title: itemTitle,
     precio: itemPrice,
     img: itemImg,
-    cantidad: 1
+    cantidad: 1,
+    id:0
   }
 
   addItemCarrito(newItem)
@@ -54,11 +55,12 @@ function addItemCarrito(newItem){
 function renderCarrito(){
   tbody.innerHTML = ''
   carrito.map(item => {
+    item.id++
     const tr = document.createElement('tr')
     tr.classList.add('ItemCarrito')
     const Content = `
     
-    <th scope="row">1</th>
+    <th scope="row">${item.id}</th>
             <td class="table__productos">
               <img src=${item.img}  alt="">
               <h6 class="title">${item.title}</h6>

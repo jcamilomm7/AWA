@@ -47,7 +47,7 @@
   margin-top: 50px;
 }
 
-body {
+.productoCarrito {
   background-color: #1F2833;
 }
 
@@ -101,6 +101,70 @@ header, .alert {
   background-color: #1F2833;
 }
 
-/*# sourceMappingURL=estilos.css.map */
+.contacto {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+
+.fondo {
+  background-color: #1F2833;
+}
+
+.p-6 {
+  padding: 4rem 7rem !important;
+}
+
+.contact-box {
+  padding: 3rem;
+}
+
+.btn {
+  font-weight: 400;
+  padding: 1rem 2rem;
+  border-radius: 5rem !important;
+  min-width: 10rem;
+}
+
+.btn-outline-dark {
+  border: 2px solid;
+}
+
+.form-control {
+  border-radius: 0.2rem;
+  padding: 1.5rem 1rem;
+}
+
+.register-bg {
+  background-image: url("../image/contacto.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.testimonial {
+  bottom: 10px;
+  margin-left: 2.5%;
+}
+
+@media (max-width: 575.98px) {
+  .p-6 {
+    padding: 2rem;
+  }
+
+  .contact-box {
+    padding: 0;
+  }
+
+  .width-100 {
+    width: 100%;
+  }
+}
+@media (max-width: 1200px) {
+  .register-bg {
+    min-height: 50vh;
+  }
+}
 
 /*# sourceMappingURL=estilos.css.map */

@@ -1,0 +1,173 @@
+.navestilos {
+  background-color: #1F2833;
+}
+
+.nav-item a:hover {
+  background-color: #45A29E;
+  font-size: 25px;
+  -webkit-transition: 1.3s;
+  transition: 1.3s;
+  font-weight: bold;
+}
+
+.footerestilos {
+  margin-bottom: 0;
+}
+
+.barraredes {
+  background-color: #66FCF1;
+}
+
+.footerestilos {
+  background-color: #1F2833;
+}
+
+.redes {
+  color: #0B0C10;
+}
+
+.card {
+  margin: 0 auto;
+  /* Added */
+  float: none;
+  /* Added */
+  margin-bottom: 10px;
+  /* Added */
+  margin-top: 20px;
+  width: 16rem;
+  height: 380px;
+  margin-left: px;
+}
+
+.card img {
+  height: 180px;
+}
+
+.tarjetas1 h2 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.productoCarrito {
+  background-color: #1F2833;
+}
+
+header, .alert {
+  z-index: 100;
+}
+
+.description {
+  height: 25px;
+  overflow: hidden;
+  -webkit-transition: height .3s ease-in .3s;
+  transition: height .3s ease-in .3s;
+}
+
+.description:hover {
+  height: 80px;
+}
+
+.carrito {
+  min-height: 80vh;
+  max-width: 1000px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.table__productos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.table__productos > img {
+  width: 9rem;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 6px;
+  margin-right: 20px;
+}
+
+.table__cantidad > input {
+  width: 40px;
+  border: none;
+  outline: 0;
+  font-size: 16px;
+  font-weight: 700;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+
+.hide, .remove {
+  display: none;
+}
+
+.estilos {
+  background-color: #1F2833;
+}
+
+.contacto {
+  font-family: 'Roboto',sans-serif;
+  font-size: 1.1rem;
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+
+.fondo {
+  background-color: #1F2833;
+}
+
+.p-6 {
+  padding: 4rem 7rem !important;
+}
+
+.contact-box {
+  padding: 3rem;
+}
+
+.btn {
+  font-weight: 400;
+  padding: 1rem 2rem;
+  border-radius: 5rem !important;
+  min-width: 10rem;
+}
+
+.btn-outline-dark {
+  border: 2px solid;
+}
+
+.form-control {
+  border-radius: .2rem;
+  padding: 1.5rem 1rem;
+}
+
+.register-bg {
+  background-image: url("../image/contacto.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.testimonial {
+  bottom: 10px;
+  margin-left: 2.5%;
+}
+
+@media (max-width: 575.98px) {
+  .p-6 {
+    padding: 2rem;
+  }
+  .contact-box {
+    padding: 0;
+  }
+  .width-100 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .register-bg {
+    min-height: 50vh;
+  }
+}
+/*# sourceMappingURL=estilos.css.map */

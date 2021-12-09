@@ -1,310 +1,194 @@
 .navestilos {
-    background-color: #1F2833;
-}
-
-.nav-item {
-    font-weight: bold;
+  background-color: #1F2833;
 }
 
 .nav-item a:hover {
-    background-color: #2a7f85;
-    transition: 1.3s;
-    border-radius: 50px;
+  background-color: #45A29E;
+  font-size: 25px;
+  transition: 1.3s;
+  font-weight: bold;
 }
 
 .footerestilos {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .barraredes {
-    background-color: #66FCF1;
+  background-color: #66FCF1;
 }
 
 .footerestilos {
-    background-color: #1F2833;
+  background-color: #1F2833;
 }
 
 .redes {
-    color: #0B0C10;
+  color: #0B0C10;
 }
 
 .card {
-    margin: 0 auto;
-    /* Added */
-    float: none;
-    /* Added */
-    margin-bottom: 10px;
-    /* Added */
-    margin-top: 20px;
-    width: 16rem;
-    height: 380px;
-    margin-left: px;
+  margin: 0 auto;
+  /* Added */
+  float: none;
+  /* Added */
+  margin-bottom: 10px;
+  /* Added */
+  margin-top: 20px;
+  width: 16rem;
+  height: 380px;
+  margin-left: px;
 }
 
 .card img {
-    height: 180px;
+  height: 180px;
 }
 
 .tarjetas1 h2 {
-    text-align: center;
-    margin-top: 50px;
+  text-align: center;
+  margin-top: 50px;
 }
 
 .productoCarrito {
-    background-color: #1F2833;
+  background-color: #1F2833;
 }
 
-header,
-.alert {
-    z-index: 100;
+header, .alert {
+  z-index: 100;
 }
 
 .description {
-    height: 25px;
-    overflow: hidden;
-    transition: height 0.3s ease-in 0.3s;
+  height: 25px;
+  overflow: hidden;
+  transition: height 0.3s ease-in 0.3s;
 }
 
 .description:hover {
-    height: 80px;
+  height: 80px;
 }
 
 .carrito {
-    min-height: 80vh;
-    max-width: 1000px;
-    margin: 0 auto;
-    width: 100%;
+  min-height: 80vh;
+  max-width: 1000px;
+  margin: 0 auto;
+  width: 100%;
 }
 
 .table__productos {
-    display: flex;
+  display: flex;
 }
 
-.table__productos>img {
-    width: 9rem;
-    object-fit: contain;
-    border-radius: 6px;
-    margin-right: 20px;
+.table__productos > img {
+  width: 9rem;
+  object-fit: contain;
+  border-radius: 6px;
+  margin-right: 20px;
 }
 
-.table__cantidad>input {
-    width: 40px;
-    border: none;
-    outline: 0;
-    font-size: 16px;
-    font-weight: 700;
-    margin-right: 30px;
-    margin-bottom: 20px;
+.table__cantidad > input {
+  width: 40px;
+  border: none;
+  outline: 0;
+  font-size: 16px;
+  font-weight: 700;
+  margin-right: 30px;
+  margin-bottom: 20px;
 }
 
-.hide,
-.remove {
-    display: none;
+.hide, .remove {
+  display: none;
 }
 
 .estilos {
-    background-color: #1F2833;
+  background-color: #1F2833;
 }
 
 .contacto {
-    font-family: "Roboto", sans-serif;
-    font-size: 1.1rem;
-    font-weight: 300;
-    letter-spacing: 0.05em;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 300;
+  letter-spacing: 0.05em;
 }
 
 .fondo {
-    background-color: #1F2833;
+  background-color: #1F2833;
 }
 
 .p-6 {
-    padding: 4rem 7rem !important;
+  padding: 4rem 7rem !important;
 }
 
 .contact-box {
-    padding: 3rem;
+  padding: 3rem;
 }
 
 .btn {
-    font-weight: 400;
-    padding: 1rem 2rem;
-    border-radius: 5rem !important;
-    min-width: 10rem;
+  font-weight: 400;
+  padding: 1rem 2rem;
+  border-radius: 5rem !important;
+  min-width: 10rem;
 }
 
 .btn-outline-dark {
-    border: 2px solid;
+  border: 2px solid;
 }
 
 .form-control {
-    border-radius: 0.2rem;
-    padding: 1.5rem 1rem;
+  border-radius: 0.2rem;
+  padding: 1.5rem 1rem;
 }
 
 .register-bg {
-    background-image: url("../image/contacto.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 100vh;
+  background-image: url("../image/contacto.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
 }
 
 .testimonial {
-    bottom: 10px;
-    margin-left: 2.5%;
+  bottom: 10px;
+  margin-left: 2.5%;
 }
 
 @media (max-width: 575.98px) {
-    .p-6 {
-        padding: 2rem;
-    }
-    .contact-box {
-        padding: 0;
-    }
-    .width-100 {
-        width: 100%;
-    }
-}
+  .p-6 {
+    padding: 2rem;
+  }
 
-@media (max-width: 1200px) {
-    .register-bg {
-        min-height: 50vh;
-    }
-}
+  .contact-box {
+    padding: 0;
+  }
 
-
-/* Breadcumb */
-
-.containerBreadcumb {
-    text-align: center;
-    background: #45A29E;
-    padding: 20px 0;
-    color: #fff;
-}
-
-
-/* Benefits */
-
-.services .icon-box {
-    padding: 30px;
-    position: relative;
-    overflow: hidden;
-    border-radius: 10px;
-    margin: 0 10px 40px 10px;
-    background: #fff;
-    box-shadow: 0 2px 29px 0 rgba(68, 88, 144, 0.12);
-    transition: all 0.3s ease-in-out;
-}
-
-.services .icon-box:hover {
-    transform: translateY(-5px);
-}
-
-.services .icon {
-    position: absolute;
-    left: -20px;
-    top: calc(50% - 30px);
-}
-
-.services .icon i {
-    font-size: 64px;
-    line-height: 1;
-    transition: 0.5s;
-}
-
-.services .title {
-    margin-left: 40px;
-    font-weight: 700;
-    margin-bottom: 15px;
-    font-size: 18px;
-}
-
-.services .title a {
-    color: #111;
-}
-
-.services .icon-box:hover .title a {
-    color: #45A29E;
-}
-
-.services .description {
-    font-size: 14px;
-    margin-left: 40px;
-    line-height: 24px;
-    margin-bottom: 0;
-}
-
-
-/* Features */
-
-.section-title h2 {
-    font-size: 32px;
-    font-weight: 600;
-    margin-bottom: 20px;
-    padding-bottom: 0;
-    font-family: "Poppins", sans-serif;
-    text-align: center;
-}
-
-.features .card {
-    border: 0;
-    padding: 160px 20px 20px 20px;
-    position: relative;
+  .width-100 {
     width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+  }
+}
+@media (max-width: 1200px) {
+  .register-bg {
+    min-height: 50vh;
+  }
+}
+.imagenes {
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
 }
 
-.card {
-    background-image: url(http://placekitten.com/600/400);
+.container2 {
+  width: 60%;
+  margin-left: 20%;
+  text-align: center;
+  margin-top: 50px;
 }
 
-.features .card-body {
-    z-index: 10;
-    background: rgba(255, 255, 255, 0.686);
-    padding: 15px 30px;
-    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-    transition: 0.3s;
-    transition: ease-in-out 0.4s;
-    border-radius: 5px;
-}
+@media (max-width: 576px) {
+  .imagenes {
+    width: 200px;
+    height: 200px;
+  }
 
-.features .card-title {
-    font-weight: 700;
-    text-align: center;
-    margin-bottom: 15px;
+  .container2 {
+    width: 90%;
+    margin-left: 10%;
+  }
 }
-
-.features .card-title a {
-    color: #3c4133;
-}
-
-.features .card-text {
-    color: #5e5e5e;
-}
-
-.features .read-more a {
-    color: #777777;
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 12px;
-    transition: 0.4s;
-}
-
-.features .read-more a:hover {
-    text-decoration: underline;
-}
-
-.features .card:hover .card-body {
-    background: #45A29E;
-}
-
-.features .card:hover .read-more a,
-.features .card:hover .card-title,
-.features .card:hover .card-title a,
-.features .card:hover .card-text {
-    color: #fff;
-}
-
 
 /*# sourceMappingURL=estilos.css.map */

@@ -1,0 +1,24 @@
+.imagenes{
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+}
+.container2{
+    width: 60%;
+    margin-left: 20%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+@media (max-width: 576px) {
+    .imagenes {
+        width: 200px;
+        height: 200px;
+    }
+    .container2{
+        width: 90%;
+        margin-left: 10%;
+
+    }
+  }

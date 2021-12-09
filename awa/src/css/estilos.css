@@ -50,6 +50,124 @@
     margin-top: 50px;
 }
 
+
+/* Cards news */
+
+.about-boxes {
+    background-size: cover;
+    padding: 60px 0 30px 0;
+    position: relative;
+}
+
+.about-boxes::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.92);
+    z-index: 9;
+}
+
+.about-boxes .container,
+.about-boxes .container-fluid {
+    position: relative;
+    z-index: 10;
+}
+
+.about-boxes .card {
+    border-radius: 3px;
+    border: 0;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.about-boxes .card-icon {
+    text-align: center;
+    margin-top: -32px;
+}
+
+.about-boxes .card-icon i {
+    font-size: 32px;
+    color: #fff;
+    width: 64px;
+    height: 64px;
+    padding-top: 5px;
+    text-align: center;
+    background-color: #2a7f85;
+    border-radius: 4px;
+    text-align: center;
+    border: 4px solid #fff;
+    transition: 0.3s;
+    display: inline-block;
+}
+
+.about-boxes .card-body {
+    padding-top: 12px;
+}
+
+.about-boxes .card-title {
+    font-weight: 700;
+    text-align: center;
+}
+
+.about-boxes .card-title a {
+    color: #15222b;
+}
+
+.about-boxes .card-title a:hover {
+    color: #2a7f85;
+}
+
+.about-boxes .card-text {
+    color: #5e5e5e;
+}
+
+.about-boxes .card:hover .card-icon i {
+    background: #fff;
+    color: #2a7f85;
+}
+
+@media (max-width: 1024px) {
+    .about-boxes {
+        background-attachment: scroll;
+    }
+}
+
+
+/* Our clients */
+
+.clients {
+    padding-top: 60px;
+}
+
+.clients .swiper-slide img {
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+.clients .swiper-slide img:hover {
+    opacity: 1;
+}
+
+.clients .swiper-pagination {
+    margin-top: 20px;
+    position: relative;
+}
+
+.clients .swiper-pagination .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    opacity: 1;
+    border: 1px solid #2a7f85;
+}
+
+.clients .swiper-pagination .swiper-pagination-bullet-active {
+    background-color: #2a7f85;
+}
+
 .productoCarrito {
     background-color: #1F2833;
 }
@@ -255,8 +373,9 @@ header,
     background-position: center center;
 }
 
-.card {
-    background-image: url(http://placekitten.com/600/400);
+.cardIndex {
+    width: 18rem;
+    height: 30rem;
 }
 
 .features .card-body {

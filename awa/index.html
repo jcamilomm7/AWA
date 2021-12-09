@@ -13,6 +13,11 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <link rel="stylesheet" href="./src/css/estilos.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+
 </head>
 
 <body>
@@ -84,52 +89,96 @@
 
 
     <!-- Cards -->
-    <section class="tarjetas1">
-        <h2 class="h1">Siempre buscamos lo mejor para los clientes </h2>
-        <div class="container">
+
+    <section id="about-boxes" class="about-boxes">
+        <div class="container" data-aos="fade-up">
+
             <div class="row">
-                <div class="col-sm-12 col-md-6 col-lg-3 ">
-                    <div class="card ">
-                        <img src="http://placekitten.com/100/120" class="card-img-top" alt="...">
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card cardIndex">
+                        <img src="http://placekitten.com/600/450" class="card-img-top" alt="...">
+                        <div class="card-icon">
+                            <i class="bi bi-stars"></i>
+                        </div>
                         <div class="card-body">
-                            <h5 class="card-title">INNOVACION</h5>
-                            <p class="card-text">Fabricamos nuestras fuentes de agua con materiales y acabados innovadores, siempre a la vanguardia del mercado.</p>
-                            <!-- <a href="#" class="btn btn-dark">Ir a pagina principal</a> -->
+                            <h5 class="card-title"><a href="">Innovación</a></h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                         </div>
                     </div>
                 </div>
-
-                <div class="col-sm-12 col-md-6 col-lg-3 ">
-                    <div class="card">
-                        <img src="http://placekitten.com/100/120" class="card-img-top" alt="...">
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card cardIndex">
+                        <img src="http://placekitten.com/600/450" class="card-img-top" alt="...">
+                        <div class="card-icon">
+                            <i class="bi bi-check2-all"></i>
+                        </div>
                         <div class="card-body">
-                            <h5 class="card-title">DISEÑO A LA MEDIDA</h5>
-                            <p class="card-text">Nos ajustamos a cualquier espacio y desarrollamos propuestas en armonía con el diseño del ambiente.</p>
+                            <h5 class="card-title"><a href="">Respaldo</a></h5>
+                            <p class="card-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
                         </div>
                     </div>
                 </div>
-
-                <div class="col-sm-12 col-md-6 col-lg-3 ">
-                    <div class="card">
-                        <img src="http://placekitten.com/100/120" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">CALIDAD</h5>
-                            <p class="card-text">Productos, procesos y servicios de la más alta calidad para llegar a clientes exigentes.</p>
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card cardIndex">
+                        <img src="http://placekitten.com/600/450" class="card-img-top" alt="...">
+                        <div class="card-icon">
+                            <i class="bi bi-gem"></i>
                         </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-12 col-md-6 col-lg-3  ">
-                    <div class="card">
-                        <img src="http://placekitten.com/100/120" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">RESPALDO</h5>
-                            <p class="card-text">Siempre listos para atender a nuestros clientes y prestar un servicio de calidad.</p>
+                            <h5 class="card-title"><a href="">Calidad</a></h5>
+                            <p class="card-text">Nemo enim ipsam voluptatem quia voluptas sit aut odit aut fugit, sed quia magni dolores eos qui ratione voluptatem sequi nesciunt Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet. </p>
                         </div>
                     </div>
                 </div>
             </div>
+
+        </div>
     </section>
+    <!-- End About Boxes Section -->
+
+
+
+
+
+
+
+
+    <!-- Our clients -->
+    <section id="clients" class="clients py-4 bg-light">
+        <div class="container" data-aos="fade-up">
+
+            <div class="section-title">
+                <h2>Nuestros clientes</h2>
+                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi
+                    quidem hic quas.</p>
+            </div>
+
+            <div class="clients-slider swiper">
+                <div class="swiper-wrapper align-items-center">
+                    <div class="swiper-slide"><img src="http://placekitten.com/400/140" class="img-fluid" alt=""></div>
+                    <div class="swiper-slide"><img src="http://placekitten.com/401/140" class="img-fluid" alt=""></div>
+                    <div class="swiper-slide"><img src="http://placekitten.com/400/140" class="img-fluid" alt=""></div>
+                    <div class="swiper-slide"><img src="http://placekitten.com/400/140" class="img-fluid" alt=""></div>
+                    <div class="swiper-slide"><img src="http://placekitten.com/400/140" class="img-fluid" alt=""></div>
+                    <div class="swiper-slide"><img src="http://placekitten.com/400/140" class="img-fluid" alt=""></div>
+                    <div class="swiper-slide"><img src="http://placekitten.com/400/140" class="img-fluid" alt=""></div>
+                    <div class="swiper-slide"><img src="http://placekitten.com/400/140" class="img-fluid" alt=""></div>
+                    <div class="swiper-slide"><img src="http://placekitten.com/400/140" class="img-fluid" alt=""></div>
+                    <div class="swiper-slide"><img src="http://placekitten.com/400/140" class="img-fluid" alt=""></div>
+                    <div class="swiper-slide"><img src="http://placekitten.com/400/140" class="img-fluid" alt=""></div>
+                    <div class="swiper-slide"><img src="http://placekitten.com/400/140" class="img-fluid" alt=""></div>
+                </div>
+                <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal"><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 1"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span><span class="swiper-pagination-bullet"
+                        tabindex="0" role="button" aria-label="Go to slide 3"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 4"></span><span class="swiper-pagination-bullet"
+                        tabindex="0" role="button" aria-label="Go to slide 5"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 6"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 7"></span>
+                    <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 8"></span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- End Our Clients Section -->
+
 
 
     <!-- Footer -->
@@ -189,6 +238,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="src/js/main.js"></script>
+
 </body>
 
 </html>

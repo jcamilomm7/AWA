@@ -4,16 +4,28 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#bla"  />
+    <meta name="theme-color" content="#bla" />
     <title>Catalogo de compras</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
     <!-- Font Letra -->
-    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap" rel="stylesheet">
-     <!-- Font Awesome -->
-     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-    
+    <link
+      href="https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+
     <!-- CSS bootstrap-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
     <!-- CSS propio-->
     <link rel="stylesheet" href="./src/css/estilos.css" />
   </head>
@@ -25,11 +37,7 @@
         role="tablist"
       >
         <li class="nav-item" role="presentation">
-          <a
-            href="./index.html"
-            class="nav-link "
-            >Inicio</a
-          >
+          <a href="./index.html" class="nav-link">Inicio</a>
         </li>
         <li class="nav-item" role="presentation">
           <a
@@ -60,15 +68,21 @@
       </ul>
     </header>
 
-    <div class="alert container position-sticky top-0 alert-primary hide" role="alert">
-    Producto Añadido al carrito!
+    <div
+      class="alert container position-sticky top-0 alert-primary hide"
+      role="alert"
+    >
+      Producto Añadido al carrito!
     </div>
-    <div class="alert container position-sticky top-0 alert-danger remove" role="alert">
+    <div
+      class="alert container position-sticky top-0 alert-danger remove"
+      role="alert"
+    >
       Producto removido!
     </div>
 
     <div class="tab-content" id="pills-tabContent">
-     <!--  <div
+      <!--  <div
         class="tab-pane fade "
         id="pills-home"
         role="tabpanel"
@@ -84,116 +98,229 @@
       >
         <h2 class="h4 m-4 text-primary">Productos</h2>
 
-        <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 ">
+        <div
+          class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4"
+        >
+          <div class="col d-flex justify-content-center mb-4">
+            <div
+              class="card shadow mb-1 bg-dark rounded tamaño"
+              style="width: 20rem"
+            >
+              <h5 class="card-title pt-2 text-center text-primary">
+                VELA DE AGUA MEDIUM
+              </h5>
+              <img
+                src="./src/image/producto1.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="card-text text-white-50 description">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <h5 class="text-primary">
+                  Precio: <span class="precio">$ 1790000</span>
+                </h5>
+                <div class="d-grid gap-2">
+                  <button class="btn btn-primary button">
+                    Añadir a Carrito
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem">
+              <h5 class="card-title pt-2 text-center text-primary">
+                VELA DE AGUA LARGE
+              </h5>
+              <img
+                src="./src/image/producto2.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="card-text text-white-50 description">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <h5 class="text-primary">
+                  Precio: <span class="precio">$ 1860000</span>
+                </h5>
+                <div class="d-grid gap-2">
+                  <button class="btn btn-primary button">
+                    Añadir a Carrito
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem">
+              <h5 class="card-title pt-2 text-center text-primary">
+                FUENTE VERTICAL M
+              </h5>
+              <img
+                src="./src/image/producto3.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="card-text text-white-50 description">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <h5 class="text-primary">
+                  Precio: <span class="precio">$ 2486000</span>
+                </h5>
+                <div class="d-grid gap-2">
+                  <button class="btn btn-primary button">
+                    Añadir a Carrito
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem">
+              <h5 class="card-title pt-2 text-center text-primary">
+                FUENTE VERTICAL ML
+              </h5>
+              <img
+                src="./src/image/producto4.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="card-text text-white-50 description">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <h5 class="text-primary">
+                  Precio: <span class="precio">$ 3346000</span>
+                </h5>
+                <div class="d-grid gap-2">
+                  <button class="btn btn-primary button">
+                    Añadir a Carrito
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
 
-          <div class="col d-flex justify-content-center mb-4 ">
-            <div class="card shadow mb-1 bg-dark rounded tamaño" style="width: 20rem;">
-              <h5 class="card-title pt-2 text-center text-primary">Card title 1</h5>
-              <img src="./src/image/fuente.png" class="card-img-top" alt="...">
+          <div class="col d-flex justify-content-center mb-4">
+            <div
+              class="card shadow mb-1 bg-dark rounded"
+              style="width: 20rem; height: 430px"
+            >
+              <h5 class="card-title pt-2 text-center text-primary">
+                LUZ SUMERGIBLE RGB PARA FUENTE DE AGUA
+              </h5>
+              <br />
+              <img
+                src="./src/image/producto5.png"
+                class="card-img-top"
+                alt="..."
+              />
               <div class="card-body">
-                <p class="card-text text-white-50 description">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <h5 class="text-primary">Precio: <span class="precio">$ 5</span></h5>
+                <p class="card-text text-white-50 description">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <h5 class="text-primary">
+                  Precio: <span class="precio">$ 280000</span>
+                </h5>
                 <div class="d-grid gap-2">
-                <button  class="btn btn-primary button">Añadir a Carrito</button>
-              </div>
+                  <button class="btn btn-primary button">
+                    Añadir a Carrito
+                  </button>
+                </div>
               </div>
             </div>
           </div>
           <div class="col d-flex justify-content-center mb-4">
-            <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
-              <h5 class="card-title pt-2 text-center text-primary">Card title 2</h5>
-              <img src="./src/image/fuente.png" class="card-img-top" alt="...">
+            <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem">
+              <h5 class="card-title pt-2 text-center text-primary">
+                CUBO FLOTANTE
+              </h5>
+              <img
+                src="./src/image/producto6.png"
+                class="card-img-top"
+                alt="..."
+              />
               <div class="card-body">
-                <p class="card-text text-white-50 description">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <h5 class="text-primary">Precio: <span class="precio">$ 5</span></h5>
+                <p class="card-text text-white-50 description">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <h5 class="text-primary">
+                  Precio: <span class="precio">$ 5250000</span>
+                </h5>
                 <div class="d-grid gap-2">
-                <button  class="btn btn-primary button">Añadir a Carrito</button>
-              </div>
+                  <button class="btn btn-primary button">
+                    Añadir a Carrito
+                  </button>
+                </div>
               </div>
             </div>
           </div>
           <div class="col d-flex justify-content-center mb-4">
-            <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
-              <h5 class="card-title pt-2 text-center text-primary">Card title 3</h5>
-              <img src="./src/image/fuente.png" class="card-img-top" alt="...">
+            <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem">
+              <h5 class="card-title pt-2 text-center text-primary">
+                VELAS DE AGUA ESTANDAR
+              </h5>
+              <img
+                src="./src/image/producto8.png"
+                class="card-img-top"
+                alt="..."
+              />
               <div class="card-body">
-                <p class="card-text text-white-50 description">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <h5 class="text-primary">Precio: <span class="precio">$ 5</span></h5>
+                <p class="card-text text-white-50 description">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <h5 class="text-primary">
+                  Precio: <span class="precio">$ 4800000</span>
+                </h5>
                 <div class="d-grid gap-2">
-                <button  class="btn btn-primary button">Añadir a Carrito</button>
-              </div>
+                  <button class="btn btn-primary button">
+                    Añadir a Carrito
+                  </button>
+                </div>
               </div>
             </div>
           </div>
           <div class="col d-flex justify-content-center mb-4">
-            <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
-              <h5 class="card-title pt-2 text-center text-primary">Card title 4</h5>
-              <img src="./src/image/fuente.png" class="card-img-top" alt="...">
+            <div
+              class="card shadow mb-1 bg-dark rounded"
+              style="width: 20rem; height: 430px"
+            >
+              <h5 class="card-title pt-2 text-center text-primary">
+                LUCES SUMERGIBLES PARA FUENTES DE AGUA MONOCOLOR
+              </h5>
+              <img
+                src="./src/image/producto7.png"
+                class="card-img-top"
+                alt="..."
+              />
               <div class="card-body">
-                <p class="card-text text-white-50 description">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <h5 class="text-primary">Precio: <span class="precio">$ 5</span></h5>
+                <p class="card-text text-white-50 description">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <h5 class="text-primary">
+                  Precio: <span class="precio">$ 250000</span>
+                </h5>
                 <div class="d-grid gap-2">
-                <button  class="btn btn-primary button">Añadir a Carrito</button>
-              </div>
+                  <button class="btn btn-primary button">
+                    Añadir a Carrito
+                  </button>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col d-flex justify-content-center mb-4">
-            <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
-              <h5 class="card-title pt-2 text-center text-primary">Card title 5</h5>
-              <img src="./src/image/fuente.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text text-white-50 description">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <h5 class="text-primary">Precio: <span class="precio">$ 5</span></h5>
-                <div class="d-grid gap-2">
-                <button  class="btn btn-primary button">Añadir a Carrito</button>
-              </div>
-              </div>
-            </div>
-          </div>
-          <div class="col d-flex justify-content-center mb-4">
-            <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
-              <h5 class="card-title pt-2 text-center text-primary">Card title 6</h5>
-              <img src="./src/image/fuente.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text text-white-50 description">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <h5 class="text-primary">Precio: <span class="precio">$ 5</span></h5>
-                <div class="d-grid gap-2">
-                <button  class="btn btn-primary button">Añadir a Carrito</button>
-              </div>
-              </div>
-            </div>
-          </div>
-          <div class="col d-flex justify-content-center mb-4">
-            <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
-              <h5 class="card-title pt-2 text-center text-primary">Card title 7</h5>
-              <img src="./src/image/fuente.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text text-white-50 description">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <h5 class="text-primary">Precio: <span class="precio">$ 5</span></h5>
-                <div class="d-grid gap-2">
-                <button  class="btn btn-primary button">Añadir a Carrito</button>
-              </div>
-              </div>
-            </div>
-          </div>
-          <div class="col d-flex justify-content-center mb-4">
-            <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
-              <h5 class="card-title pt-2 text-center text-primary">Card title 8</h5>
-              <img src="./src/image/fuente.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text text-white-50 description">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <h5 class="text-primary">Precio: <span class="precio">$ 5</span></h5>
-                <div class="d-grid gap-2">
-                <button  class="btn btn-primary button">Añadir a Carrito</button>
-              </div>
-              </div>
-            </div>
-          </div>
-
-
         </div>
-
       </div>
       <div
         class="tab-pane fade carrito"
@@ -201,83 +328,122 @@
         role="tabpanel"
         aria-labelledby="pills-contact-tab"
       >
-      <br>
-      <table class="table table-dark table-hover">
-        <thead>
-          <tr class="text-primary">
-            <th scope="col">#</th>
-            <th scope="col">Productos</th>
-            <th scope="col">Precio</th>
-            <th scope="col">Cantidad</th>
-          </tr>
-        </thead>
-        <tbody class="tbody">
-          
-        </tbody>
-      </table>
-      <br><br>
-      <div class="row mx-4">
-        <div class="col">
-          <h3 class="itemCartTotal text-white">Total: 0</h3>
+        <br />
+        <table class="table table-dark table-hover">
+          <thead>
+            <tr class="text-primary">
+              <th scope="col">#</th>
+              <th scope="col">Productos</th>
+              <th scope="col">Precio</th>
+              <th scope="col">Cantidad</th>
+            </tr>
+          </thead>
+          <tbody class="tbody"></tbody>
+        </table>
+        <br /><br />
+        <div class="row mx-4">
+          <div class="col">
+            <h3 class="itemCartTotal text-white">Total: 0</h3>
+          </div>
+          <div class="col d-flex justify-content-end">
+            <button class="btn btn-success">COMPRAR</button>
+          </div>
         </div>
-        <div class="col d-flex justify-content-end">
-          <button class="btn btn-success">COMPRAR</button>
-        </div>
-      </div>
-      
       </div>
     </div>
-     <!-- Footer -->
-     <footer class="page-footer mt-5 footerestilos">
-        <div class="barraredes">
-          <div class="container">
-            <div class="row py-4 d-flex align-items-center">
-              <div class="col-md-12 text-center ">
-                <a class="redes" href="#"><i class="fab fa-facebook-f  mr-4 "> </i></a>
-                <a class="redes" href="#"><i class="fab fa-twitter mr-4 "> </i></a>
-                <a class="redes" href="#"><i class="fab fa-instagram mr-4   "> </i></a>
-              </div>
+    <!-- Footer -->
+    <footer class="page-footer mt-5 footerestilos">
+      <div class="barraredes">
+        <div class="container">
+          <div class="row py-4 d-flex align-items-center">
+            <div class="col-md-12 text-center">
+              <a class="redes" href="#"
+                ><i class="fab fa-facebook-f mr-4"> </i
+              ></a>
+              <a class="redes" href="#"><i class="fab fa-twitter mr-4"> </i></a>
+              <a class="redes" href="#"
+                ><i class="fab fa-instagram mr-4"> </i
+              ></a>
             </div>
           </div>
         </div>
-        <div class="container text-center text-md-left mt-5">
-          <div class="row">
-            <div class="col-md-3 mx-auto mb-4">
-              <h6 class="text-uppercase font-weight-bold text-light">awa ambientes de agua</h6>
-              <hr class="bg-light mb-4 mt-0 d-inline-block mx-auto" style="width: 125px; height:2px;">
-              <p class="mt-2 text-light">Somos apasionados por el diseño de manantiales de agua; combinamos la cualidad  que  permite un fluido  como el agua, y la innovación con diferentes materiales para crear la línea de Fuentes de agua decorativas.</p>
-            </div>
-    
-            <div class="col-md-2 mx-auto mb-4">
-                <h6 class="text-uppercase font-weight-bold text-light">Enlaces</h6>
-                <hr class="bg-light mb-4 mt-0 d-inline-block mx-auto text-light" style="width: 90px; height: 2px;">
-                <ul class="list-unstyled">
-                  <li class="my-2"><a href="index.html" class="text-light">Inicio</a></li>
-                  <li class="my-2"><a href="nosotros.html" class="text-light">Nosotros</a></li>
-                  <li class="my-2"><a href="beneficios.html" class="text-light">Beneficios</a></li>
-                  <li class="my-2"><a href="galeria.html" class="text-light">Galeria</a></li>
-                  <li class="my-2"><a href="catalogo.html" class="text-light">Catalogo</a></li>
-                  <li class="my-2"><a href="contacto.html" class="text-light">Contacto</a></li>
-                </ul>
-              </div>
-            <div class="col-md-3 mx-auto mb-4">
-              <h6 class="text-uppercase font-weight-bold text-light">Contacto</h6>
-              <hr class="bg-light mb-4 mt-0 d-inline-block mx-auto" style="width: 90px; height: 2px">
-                <ul class="list-unstyled">
-                  <li class="my-2 text-light"><i class="fas fa-home mr-3"></i> Envigado, Antioquia, Col.</li>
-                  <li class="my-2 text-light"><i class="fas fa-envelope mr-3"></i> smartroute@gmail.com</li>
-                  <li class="my-2 text-light"><i class="fas fa-mobile-alt mr-3"></i> (+57) 3502397470</li>
-                  <li class="my-2 text-light"><i class="fas fa-mobile-alt mr-3"></i> (+57) 3177598020</li>
-                </ul>
-            </div>
+      </div>
+      <div class="container text-center text-md-left mt-5">
+        <div class="row">
+          <div class="col-md-3 mx-auto mb-4">
+            <h6 class="text-uppercase font-weight-bold text-light">
+              awa ambientes de agua
+            </h6>
+            <hr
+              class="bg-light mb-4 mt-0 d-inline-block mx-auto"
+              style="width: 125px; height: 2px"
+            />
+            <p class="mt-2 text-light">
+              Somos apasionados por el diseño de manantiales de agua; combinamos
+              la cualidad que permite un fluido como el agua, y la innovación
+              con diferentes materiales para crear la línea de Fuentes de agua
+              decorativas.
+            </p>
+          </div>
+
+          <div class="col-md-2 mx-auto mb-4">
+            <h6 class="text-uppercase font-weight-bold text-light">Enlaces</h6>
+            <hr
+              class="bg-light mb-4 mt-0 d-inline-block mx-auto text-light"
+              style="width: 90px; height: 2px"
+            />
+            <ul class="list-unstyled">
+              <li class="my-2">
+                <a href="index.html" class="text-light">Inicio</a>
+              </li>
+              <li class="my-2">
+                <a href="nosotros.html" class="text-light">Nosotros</a>
+              </li>
+              <li class="my-2">
+                <a href="beneficios.html" class="text-light">Beneficios</a>
+              </li>
+              <li class="my-2">
+                <a href="galeria.html" class="text-light">Galeria</a>
+              </li>
+              <li class="my-2">
+                <a href="catalogo.html" class="text-light">Catalogo</a>
+              </li>
+              <li class="my-2">
+                <a href="contacto.html" class="text-light">Contacto</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3 mx-auto mb-4">
+            <h6 class="text-uppercase font-weight-bold text-light">Contacto</h6>
+            <hr
+              class="bg-light mb-4 mt-0 d-inline-block mx-auto"
+              style="width: 90px; height: 2px"
+            />
+            <ul class="list-unstyled">
+              <li class="my-2 text-light">
+                <i class="fas fa-home mr-3"></i> Envigado, Antioquia, Col.
+              </li>
+              <li class="my-2 text-light">
+                <i class="fas fa-envelope mr-3"></i> awa@gmail.com
+              </li>
+              <li class="my-2 text-light">
+                <i class="fas fa-mobile-alt mr-3"></i> (+57) 3502397470
+              </li>
+              <li class="my-2 text-light">
+                <i class="fas fa-mobile-alt mr-3"></i> (+57) 3177598020
+              </li>
+            </ul>
           </div>
         </div>
-        <div class="footer-copyright text-center py-3 text-light">
-          <p>&copy; Copyright
-          <a href="#" style="color:white;">awa ambientes de agua</a></p>
-          <p style="color: white;">Diseñado por Pygmalion tech</p>
-        </div>
-      </footer>
+      </div>
+      <div class="footer-copyright text-center py-3 text-light">
+        <p>
+          &copy; Copyright
+          <a href="#" style="color: white">awa ambientes de agua</a>
+        </p>
+        <p style="color: white">Diseñado por Pygmalion tech</p>
+      </div>
+    </footer>
 
     <script
       src="https://code.jquery.com/jquery-3.5.1.js"
